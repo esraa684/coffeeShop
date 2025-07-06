@@ -129,4 +129,29 @@ h4,
     z-index: 1;
 }
 
+/* header end */
+
+/* About*/
+
+.section-title
+{
+    position: relative;
+    padding: 115px 0 35px 0;
+    text-align: center;
+}
+
+.section-title::after
+{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    margin-left: 1px;
+    background: #da9f5b;
+}
+
+
+
 
